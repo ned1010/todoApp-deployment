@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 async function deleteHandle(id) {
 	console.log(id);
 
-	const deleteUrl = `https://ejs-todo-app.vercel.app/${id}`;
+	const deleteUrl = `https://todo-app-deployment-eight.vercel.app/${id}`;
 
 	//makde a delete request to the server
 	try {
@@ -53,7 +53,7 @@ async function checkHandle(id) {
 	console.log("got clicked for complete", id);
 	//when clicked, add a class to the item
 
-	const checkUrl = `https://ejs-todo-app.vercel.app/completed/${id}`;
+	const checkUrl = `https://todo-app-deployment-eight.vercel.app/${id}`;
 
 	//create an update request
 	try {
